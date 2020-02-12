@@ -1,0 +1,163 @@
+@media (max-width: 1023px) {
+    .access__row {
+        flex-wrap: wrap;
+    }
+
+    .access__item {
+        flex: 0 1 50%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .slick-dots {
+        bottom: 10px;
+    }
+
+    .slider__title {
+        font-size: 26px;
+    }
+
+    .benefits,
+    .options {
+        padding: 30px 0;
+    }
+
+    .benefits__head {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .order__aside {
+        flex: 0 1 360px;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 765px) {
+    .subsctiption-options__row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .subsctiption-options__column {
+        margin: 0;
+        margin-bottom: 15px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .offers__row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .offers__column {
+        margin: 0;
+        margin-top: 25px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    .offers__subtitle {
+        margin-bottom: 10px;
+    }
+
+    .order-aside__title {
+        span {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .access__item {
+        flex: 0 1 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .header__back {
+        margin-left: 20px;
+    }
+
+    .header__sing-in {
+        margin-right: 20px;
+    }
+
+    .menu__list {
+        padding: 0;
+    }
+
+    .menu__list-item {
+        display: block;
+        margin: 0;
+    }
+
+    .menu__list-link {
+        padding: 5px 0;
+    }
+
+    .slider__box {
+        top: 60px;
+        width: 100%;
+    }
+
+    .slider__title {
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .order__account-buttons {
+        display: block;
+    }
+
+    .order__account-btn:first-child {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .aside-info__title {
+        font-size: 16px;
+    }
+
+    .order__aside {
+        flex: 0 0 135px;
+    }
+}
+
+@media (max-width: 460px) {
+    .slider__box {
+        top: 30px;
+    }
+
+    .slider__title {
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    .order__track {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .track__item_3 {
+        padding-left: 5px;
+    }
+
+    .order__account-btn {
+        a {
+            padding-right: 60px;
+        }
+    }
+
+    .order__account-subtitle {
+        a {
+            display: block;
+        }
+    }
+}
